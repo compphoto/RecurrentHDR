@@ -21,6 +21,10 @@ EXR_OPTIONS = [
 ]
 
 
+def tonemap(img):
+    return img / (img + 1.0)
+
+
 def load_ldr(ldr_file: str) -> np.ndarray:
     # load the image from the path
     if ldr_file.endswith(".exr") or ldr_file.endswith(".hdr"):
