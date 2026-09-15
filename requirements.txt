@@ -1,0 +1,13 @@
+colour-science==0.4.6
+imageio==2.37.0
+lpips==0.1.4
+matplotlib==3.9.2
+numpy==2.2.6
+opencv_python==4.10.0.84
+pytorch_lightning==2.5.0.post0
+rawpy==0.23.2
+scikit-image==0.24.0
+setuptools==75.1.0
+torch==2.5.1
+torchvision==0.20.1
+tqdm==4.67.1
