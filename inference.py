@@ -15,8 +15,7 @@ from src.utils import load_ldr, to2np, round_32, tile_imgs
 from src.extender import load_extension_model
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-# CHECKPOINT_PATH = "https://github.com/sebastian-dille/RecurrentHDR/releases/download/v1.0/weights.ckpt"
-CHECKPOINT_PATH = "/studio-storage1/sdille/recurrent_hdr/checkpoints/ms_residual_gan_25-08-10-19-30-25/model_weights.pth"
+CHECKPOINT_PATH = "https://github.com/sebastian-dille/RecurrentHDR/releases/download/v1.0/model_weights.pth"
 
 
 def recurrent_inference(
