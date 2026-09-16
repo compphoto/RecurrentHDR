@@ -120,7 +120,7 @@ def recurrent_inference(
     hdr_t = hdr_t * (1 - mask.float()) + (xdr * mask.float())
 
     # store result
-    hdr = cv2.cvtColor(to2np(hdr_t), cv2.COLOR_RGB2BGR)
+    hdr = to2np(hdr_t)
 
     output = {
         "hdr": hdr,
@@ -205,7 +205,7 @@ def main(
                 result_path,
                 file_name.replace(file_ending, "exr"),
             ),
-            hdr,
+            cv2.cvtColor(hdr, cv2.COLOR_RGB2BGR),
         )
     print("Inference complete.")
 
