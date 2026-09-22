@@ -55,7 +55,9 @@ def load_extension_model(checkpoint_path: str, device: torch.device) -> torch.nn
     """
     with warnings.catch_warnings():
         warnings.simplefilter("ignore")
-        ckpt = torch.load(checkpoint_path, map_location=device, weights_only=True)
+        ckpt = torch.hub.load_state_dict_from_url(
+            checkpoint_path, map_location=device, weights_only=True, progress=True
+        )
         model = MidasNet(in_c=6, out_c=3, last_residual=True)
         full_model = Extender(model)
         print(f"Loading extension model from: {checkpoint_path}")
