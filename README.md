@@ -12,7 +12,7 @@ Patent pending</i>
 [![Paper](https://img.shields.io/badge/paper-SIGGRAPH_Asia_2026-B31B1B)](https://yaksoy.github.io/papers/SigAsia26-RecurrentHDR.pdf)
 [![Supplementary](https://img.shields.io/badge/suppl.-SIGGRAPH_Asia_2026-B31B1B
 )](https://yaksoy.github.io/papers/SigAsia26-RecurrentHDR-supp.pdf)
-[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sebastian-dille/RecurrentHDR/blob/main/notebooks/recurrentHDR_inference.ipynb)  
+[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/compphoto/RecurrentHDR/blob/main/notebooks/recurrentHDR_inference.ipynb)  
 
 
 </div>
@@ -46,7 +46,7 @@ and shows powerful recovery of bright light sources and highlights.
 
 
 
-Try out our pipeline on your own images in Colab! [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sebastian-dille/RecurrentHDR/blob/main/notebooks/recurrentHDR_inference.ipynb)
+Try out our pipeline on your own images in Colab! [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/compphoto/RecurrentHDR/blob/main/notebooks/recurrentHDR_inference.ipynb)
 
 ## How to run   
 First, install dependencies. The code was tested with Python 3.9. It is recommended to start with a fresh environment:
@@ -61,7 +61,7 @@ Next, clone this repository and install the requirements. Make sure that pip is 
 
 ```bash
 # clone project   
-git clone https://github.com/sebastian-dille/RecurrentHDR
+git clone https://github.com/compphoto/RecurrentHDR
 
 # install project   
 cd RecurrentHDR
